@@ -1,6 +1,6 @@
 import tkinter as tk
 window=tk.Tk()
-window.geometry("300x300")
+window.geometry("210x200")
 def onclick():
     print(1)
 btn1=tk.Button(text="нажми меня",command=onclick)
@@ -10,5 +10,4 @@ Chkbtn=tk.Checkbutton(text="выбор лампочки",variable=Chkvar,onvalue
 Chkbtn.grid(row=1,column=0)
 Scl=tk.Scale(label="яркость",from_=1,to=100,orient=tk.HORIZONTAL,length=200,width=10)
 Scl.grid(row=2,column=0)
-
 window.mainloop()
